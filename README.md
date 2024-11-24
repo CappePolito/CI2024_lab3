@@ -3,15 +3,16 @@ Lab 3 of Computational Intelligence
 
 
 I have made 3 similar programs, but with a couple of differences
+.
 
 
 The best performer timewise is lab 3.1 , and also has a reduced ram usage
 
-The second best is  , with a much reduced use of ram
+The second best is lab3.0  , with a very big ram usage
 
-The worse performer is  , also with a reduced ram usage.
-
-
+The worse performer is lab3.2 , also with a reduced ram usage.
+.
+.
 
 Table for a 4x4 with 10_000 RANDOMIZED STEPS
 
@@ -21,8 +22,8 @@ lab3.1	time: 1,23 minutes , number of steps: 46 , total actions evaluated: 28699
 
 lab3.2	time: 72 mins , number of steps: 68 , total actions evaluated: a lot
 
-
-
+.
+.
 
 MY IDEAS
 
@@ -40,6 +41,8 @@ I use bytes to store the states to help mitigate the huge ram needs and help for
 
 I noticed that using linear conflicts worsened the performance on this program (somehow), but improves the performane significally in the 3.1
 
+.
+.
 
 
 lab 3.1
@@ -52,7 +55,8 @@ I use a Manhattan distance with linear conflict to predict better paths
 
 i still describe the states with bytes to use less RAM.
 
-
+.
+.
 
 Lab 3.2
 
